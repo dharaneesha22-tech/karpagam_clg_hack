@@ -1,0 +1,35 @@
+{
+  "best_model_name": "Linear Regression",
+  "best_r2": 0.9994,
+  "feature_cols": [
+    "attendance",
+    "internal_mark",
+    "assignment_mark",
+    "previous_mark",
+    "study_hours",
+    "assignment_completion"
+  ],
+  "target_col": "final_mark",
+  "training_samples": 24,
+  "test_samples": 6,
+  "model_results": {
+    "Linear Regression": {
+      "MAE": 0.4483,
+      "MSE": 0.2353,
+      "RMSE": 0.4851,
+      "R2": 0.9994
+    },
+    "Decision Tree": {
+      "MAE": 2.1667,
+      "MSE": 5.5,
+      "RMSE": 2.3452,
+      "R2": 0.9854
+    },
+    "Random Forest": {
+      "MAE": 1.5617,
+      "MSE": 4.0338,
+      "RMSE": 2.0084,
+      "R2": 0.9893
+    }
+  }
+}
